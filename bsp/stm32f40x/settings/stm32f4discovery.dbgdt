@@ -1,5 +1,170 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<Project/>
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>965</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>723</ColumnWidth1>
+        <ColumnWidth2>193</ColumnWidth2>
+        <ColumnWidth3>48</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>252</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+      <Find-in-Files>
+        <ColumnWidth0>350</ColumnWidth0>
+        <ColumnWidth1>50</ColumnWidth1>
+        <ColumnWidth2>601</ColumnWidth2>
+      </Find-in-Files>
+      <CallStack>
+        <col-names>
+          <item>Frame</item>
+          <item>_I0</item>
+        </col-names>
+        <col-widths>
+          <item>400</item>
+          <item>20</item>
+        </col-widths>
+        <PreferedWindows>
+          <Position>1</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+      </CallStack>
+      <WATCH_1>
+        <expressions>
+          <item/>
+        </expressions>
+        <col-names>
+          <item>Expression</item>
+          <item>Location</item>
+          <item>Type</item>
+          <item>Value</item>
+        </col-names>
+        <col-widths>
+          <item>100</item>
+          <item>150</item>
+          <item>100</item>
+          <item>100</item>
+        </col-widths>
+      </WATCH_1>
+      <Locals>
+        <col-names>
+          
+          
+          
+          
+        <item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names>
+        <col-widths>
+          
+          
+          
+          
+        <item>150</item><item>100</item><item>184</item><item>100</item></col-widths>
+      </Locals>
+    </Static>
+    <Windows>
+      
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12669-3432</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-12147-3442</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-13946-8320</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23418-3435</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>stm32f4discovery</ExpandedNode><ExpandedNode>stm32f4discovery/Kernel</ExpandedNode><ExpandedNode>stm32f4discovery/Startup</ExpandedNode><ExpandedNode>stm32f4discovery/StdPeriph_Driver</ExpandedNode><ExpandedNode>stm32f4discovery/StdPeriph_Driver/stm32f4xx_adc.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1398-3438</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-17459-10711</Identity>
+            <TabName>Watch 1</TabName>
+            <Factory>WATCH_1</Factory>
+          </Tab>
+          <Tab>
+            <Identity>TabID-26116-10753</Identity>
+            <TabName>Locals</TabName>
+            <Factory>Locals</Factory>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd6></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\idle.c</Filename><XPos>0</XPos><YPos>138</YPos><SelStart>3522</SelStart><SelEnd>3522</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\drivers\board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1321</SelStart><SelEnd>1321</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\drivers\serial.c</Filename><XPos>0</XPos><YPos>171</YPos><SelStart>3664</SelStart><SelEnd>3664</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applications\startup.c</Filename><XPos>0</XPos><YPos>103</YPos><SelStart>2570</SelStart><SelEnd>2570</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\drivers\board.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>384</SelStart><SelEnd>384</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\kservice.c</Filename><XPos>0</XPos><YPos>475</YPos><SelStart>9361</SelStart><SelEnd>9361</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\applications\application.c</Filename><XPos>0</XPos><YPos>123</YPos><SelStart>3323</SelStart><SelEnd>3323</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\drivers\stm32f4xx_conf.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>1116</SelStart><SelEnd>1116</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\components\finsh\cmd.c</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>1775</SelStart><SelEnd>1796</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</Filename><XPos>0</XPos><YPos>209</YPos><SelStart>10202</SelStart><SelEnd>10202</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</Filename><XPos>0</XPos><YPos>285</YPos><SelStart>14494</SelStart><SelEnd>14494</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\drivers\usart.c</Filename><XPos>0</XPos><YPos>184</YPos><SelStart>3015</SelStart><SelEnd>3015</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\components\finsh\symbol.c</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>712</SelStart><SelEnd>729</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\rtconfig.h</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>1485</SelStart><SelEnd>1485</SelEnd></Tab><ActiveTab>13</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\components\finsh\finsh_init.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>632</SelStart><SelEnd>632</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\components\finsh\finsh.h</Filename><XPos>0</XPos><YPos>144</YPos><SelStart>5213</SelStart><SelEnd>5213</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\rtservice.h</Filename><XPos>0</XPos><YPos>70</YPos><SelStart>1774</SelStart><SelEnd>1774</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\slab.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>624</SelStart><SelEnd>624</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0137a2e0><key>iaridepm.enu1</key></Toolbar-0137a2e0></Sizes></Row0><Row1><Sizes><Toolbar-050759c8><key>debuggergui.enu1</key></Toolbar-050759c8></Sizes></Row1><Row2><Sizes><Toolbar-07de7048><key>armstlink.enu1</key></Toolbar-07de7048></Sizes></Row2></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>693</Bottom><Right>343</Right><x>-2</x><y>-2</y><xscreen>441</xscreen><yscreen>422</yscreen><sizeHorzCX>262500</sizeHorzCX><sizeHorzCY>420319</sizeHorzCY><sizeVertCX>205357</sizeVertCX><sizeVertCY>692231</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>431</Bottom><Right>221</Right><x>-2</x><y>-2</y><xscreen>441</xscreen><yscreen>422</yscreen><sizeHorzCX>262500</sizeHorzCX><sizeHorzCY>420319</sizeHorzCY><sizeVertCX>132738</sizeVertCX><sizeVertCY>431275</sizeVertCY></Rect></Wnd6><Wnd5><Rect><Top>0</Top><Left>0</Left><Bottom>0</Bottom><Right>571213829</Right><x>-2</x><y>429</y><xscreen>441</xscreen><yscreen>422</yscreen><sizeHorzCX>262500</sizeHorzCX><sizeHorzCY>420319</sizeHorzCY><sizeVertCX>132738</sizeVertCX><sizeVertCY>262948</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>219</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>221</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>220120</sizeHorzCY><sizeVertCX>262500</sizeVertCX><sizeVertCY>420319</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
 
 
