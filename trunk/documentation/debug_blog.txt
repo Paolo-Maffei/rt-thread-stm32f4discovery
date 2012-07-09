@@ -1,0 +1,53 @@
+[网络资源]
+
+http://www.st.com/internet/evalboard/product/252419.jsp
+http://cms.mcuapps.com/products/stm32f4-discovery/README.html
+www.st.com/stm32f4-discovery
+
+[时钟配置]
+
+要根据板子的外部晶振做适当的调整，配置文件rt-thread-stm32f4discovery\bsp\stm32f40x\drivers里
+
+#if defined  (HSE_VALUE)
+/* Redefine the HSE value; it's equal to 8 MHz on the STM32F4-DISCOVERY Kit */
+ #undef HSE_VALUE
+ #define HSE_VALUE    ((uint32_t)8000000)
+#endif /* HSE_VALUE */
+
+
+[配置串口用于Finsh]
+
+配置在文件rt-thread-stm32f4discovery\bsp\stm32f40x\driversboard.h里
+	
+//#define RT_USING_UART1
+#define RT_USING_UART2
+//#define RT_USING_UART3
+
+// <o> Console on USART: <0=> no console <1=>USART 1 <2=>USART 2 <3=> USART 3
+// 	<i>Default: 1
+#define STM32_CONSOLE_USART		2
+
+如果选择USART1, PA9<--->USART1_TX PA10<--->USART1_Rx   //不建议，因为已为他用！
+如果选择USART2, PA2<--->USART2_TX PA3<--->USART2_Rx
+如果选择USART3, PC10<--->USART3_TX PC11<--->USART3_Rx
+
+地线选择很多，为了方便和牢靠，我选择SWD的Pin3!
+
+我们这里选择USART2!
+
+Bug: 
+	如果定义 #define RT_USING_UART3, 那么会在
+
+存疑：
+	如果选择USART2, PD5<--->USART2_TX PD6<--->USART2_Rx  ?
+
+void DMA_Init(DMA_Stream_TypeDef* DMAy_Streamx, DMA_InitTypeDef* DMA_InitStruct)
+{
+  uint32_t tmpreg = 0;
+
+  /* Check the parameters */
+  assert_param(IS_DMA_ALL_PERIPH(DMAy_Streamx));
+  assert_param(IS_DMA_CHANNEL(DMA_InitStruct->DMA_Channel));
+  assert_param(IS_DMA_DIRECTION(DMA_InitStruct->DMA_DIR));
+  assert_param(IS_DMA_BUFFER_SIZE(DMA_InitStruct->DMA_BufferSize));  //<--- 断言不通过！
+

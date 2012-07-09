@@ -110,7 +110,7 @@ void rtthread_startup(void)
 	return ;
 }
 
-int main(void)
+listint main(void)
 {
        
 	/* disable interrupt first */
